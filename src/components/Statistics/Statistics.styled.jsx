@@ -53,8 +53,10 @@ export const Item = styled.li`
 `;
 export const Label = styled.span`
   font-size: 14px;
+ 
 `;
 export const Percentage = styled.span`
   font-size: 20px;
   font-weight: 700;
+  color:rgb(22, 10, 163 );
 `;

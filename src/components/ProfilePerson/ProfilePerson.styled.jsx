@@ -53,7 +53,7 @@ export const Stats = styled.ul`
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    border:1px solid #fff;
+    border:1px solid ;
     text-align: center;
     &:hover {
       background-color: rgba(0, 0, 0, 0.04);

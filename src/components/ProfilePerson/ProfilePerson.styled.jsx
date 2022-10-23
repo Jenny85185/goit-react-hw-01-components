@@ -4,7 +4,7 @@ export const Profile = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  width: 300px;
+  width: 350px;
   border-radius: 2%;
   height: 100%;
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
@@ -48,14 +48,15 @@ export const Location = styled.p`
 
 export const Stats = styled.ul`
   display: flex;
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: rgb(22 10 163 / 58%);
   li {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
+    border:1px solid #fff;
     text-align: center;
     &:hover {
-      background-color: rgb(22 10 163 / 58%);
+      background-color: rgba(0, 0, 0, 0.04);
       cursor: pointer;
     }
   }

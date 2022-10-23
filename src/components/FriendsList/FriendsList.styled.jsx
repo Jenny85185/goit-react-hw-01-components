@@ -10,9 +10,9 @@ export const Friends = styled.ul`
 
 export const Item = styled.li`
   display: flex;
-  width: 300px;
+  width: 330px;
   height: 100%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px ;
   box-shadow: rgb(0 0 0 / 23%) 0px 3px 6px;
   align-items: center;
   margin-bottom: 10px;
@@ -23,12 +23,15 @@ export const Status = styled.span`
   height: 15px;
   background-color: ${props => (props.status ? 'green' : 'red')};
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 35px;
 `;
 export const Avatar = styled.img`
-  margin-right: 20px;
+  margin-right: 50px;
   width: 50px;
   height: 50px;
+  padding: 5px;
+  border: 2px solid #f00;
+  background-color: grey;
 `;
 
 export const Name = styled.p`
